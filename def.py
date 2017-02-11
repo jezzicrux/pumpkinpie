@@ -9,7 +9,7 @@ def someFunction():
     print (a+5)
     print (a+b)
 someFunction()
-b=float(input("Enter a number. "))'''
+b=float(input("Enter a number. "))
 
 a=int(input("Pick a number. "))
 if a >= 22:
@@ -20,3 +20,8 @@ else:
     print ("else")
 print("Hey")
 
+for a in range (-5,1):
+    print (a)'''
+
+for b in range (1,10,3):
+    print (b)

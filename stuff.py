@@ -37,7 +37,7 @@ while a == True:
     if b <= 5:
         a = True
     else:
-        a = False'''
+        a = False
 
 for rangebytwos in range (0,10,3):
     print (rangebytwos)
@@ -45,3 +45,16 @@ for rangebytwos in range (0,10,3):
 a=input("Do you want to continue? Y or N")
 while a == 'Y':
     print
+
+mystring="I walk to school"
+print(mystring.replace(' ', 'p'))'''
+
+firstlist=[1,2,3,4,5,6]
+#print(firstlist[2])
+#firstlist.append(3)
+
+'''for a in firstlist:
+    print(a)'''
+print(firstlist)
+#print(firstlist.count(3))
+#print(firstlist.index(3))
